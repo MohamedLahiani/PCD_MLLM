@@ -50,25 +50,7 @@ Video frames were extracted, and both visual and textual information were prepro
 - **Google Colab (T4 GPU)**: For training and experimentation.
 
 ## 📁 Project Structure
-PCD-main/
-├── videochat/ # Frontend application
-│ ├── public/ # Static assets
-│ ├── src/
-│ │ ├── assets/ # Application assets
-│ │ │ ├── stores/ # Zustand store definitions
-│ │ │ └── react.svg # React logo
-│ │ ├── components/ # React components
-│ │ │ ├── ChatInterface.jsx # Main chat component
-│ │ │ └── ChatInterface.css # Styling for chat component
-│ │ ├── App.jsx # Main application component
-│ │ ├── App.css # Application styles
-│ │ ├── main.jsx # Application entry point
-│ │ └── index.css # Global styles
-│ ├── .gitignore # Git ignore file
-│ ├── package.json # Project dependencies
-│ ├── eslint.config.js # ESLint configuration
-│ ├── vite.config.js # Vite configuration
-│ └── README.md # This file
+<pre><code>```bash PCD-main/ ├── videochat/ # Frontend application │ ├── public/ # Static assets │ ├── src/ │ │ ├── assets/ # Application assets │ │ │ ├── stores/ # Zustand store definitions │ │ │ └── react.svg # React logo │ │ ├── components/ # React components │ │ │ ├── ChatInterface.jsx # Main chat component │ │ │ └── ChatInterface.css # Styling for chat component │ │ ├── App.jsx # Main application component │ │ ├── App.css # Application styles │ │ ├── main.jsx # Application entry point │ │ └── index.css # Global styles │ ├── .gitignore # Git ignore file │ ├── package.json # Project dependencies │ ├── eslint.config.js # ESLint configuration │ ├── vite.config.js # Vite configuration │ └── README.md # This file ``` </code></pre>
 
 
 ## 🚀 Getting Started
