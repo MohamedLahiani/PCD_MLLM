@@ -29,6 +29,17 @@ The **MTVQA (Movie Text-Video Question Answering)** dataset was used for trainin
 
 Video frames were extracted, and both visual and textual information were preprocessed for multimodal fusion.
 
+## ⚙️ Tech Stack
+
+### 🖥️ Frontend
+
+- **React 19**: Latest React version for building the UI  
+- **Vite**: Fast build tooling and development server  
+- **Zustand**: Simple state management for React  
+- **React Icons**: Icon library for UI elements  
+- **CSS3**: Custom styling with CSS variables for theming  
+
+
 ## Technologies Used
 
 - **Python 3.10**: Core programming language.
@@ -37,6 +48,36 @@ Video frames were extracted, and both visual and textual information were prepro
 - **CLIP ViT-L/14**: Video encoder for feature extraction.
 - **Vicuna-v1.1**: Language model for generating answers.
 - **Google Colab (T4 GPU)**: For training and experimentation.
+
+## 📁 Project Structure
+PCD-main/
+├── videochat/ # Frontend application
+│ ├── public/ # Static assets
+│ ├── src/
+│ │ ├── assets/ # Application assets
+│ │ │ ├── stores/ # Zustand store definitions
+│ │ │ └── react.svg # React logo
+│ │ ├── components/ # React components
+│ │ │ ├── ChatInterface.jsx # Main chat component
+│ │ │ └── ChatInterface.css # Styling for chat component
+│ │ ├── App.jsx # Main application component
+│ │ ├── App.css # Application styles
+│ │ ├── main.jsx # Application entry point
+│ │ └── index.css # Global styles
+│ ├── .gitignore # Git ignore file
+│ ├── package.json # Project dependencies
+│ ├── eslint.config.js # ESLint configuration
+│ ├── vite.config.js # Vite configuration
+│ └── README.md # This file
+
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Node.js 18+**
+- **npm** or **yarn**
+
 
 ## Preliminary Results
 
