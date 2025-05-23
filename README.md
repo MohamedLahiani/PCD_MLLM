@@ -1,4 +1,4 @@
-# MLLM_PCD – Multimodal Large Language Model for Video Question Answering
+# MLLM_PCD – Multimodal Large Language Model for Video Question  Answering
 
 This project focuses on developing a **multimodal language model** for **video-based question answering** using advanced deep learning techniques. The model is designed to process both video and text inputs to answer questions based on movie clips, leveraging recent advances in cross-modal learning.
 
